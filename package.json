@@ -1,0 +1,22 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTful todoListApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/underc8der/todoListApi.git"
+  },
+  "keywords": [
+    "lalelilolu"
+  ],
+  "author": "david gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/underc8der/todoListApi/issues"
+  },
+  "homepage": "https://github.com/underc8der/todoListApi#readme"
+}
