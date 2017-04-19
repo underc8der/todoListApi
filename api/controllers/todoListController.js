@@ -10,6 +10,13 @@ exports.list_all_tasks = function(req, res){
    });
 };
 
+exports.read_a_task = function(req, res){
+   Task.findById(req.params.taskId, function(err, task){
+      if(err)res.send(err);
+      res.json(task);
+   });
+};
+
 exports.create_a_task = function(req, res){
    var new_task = new Task(req.body);
    new_task.save(function(err, task){
@@ -30,6 +37,6 @@ exports.delete_a_task = function(req, res){
       _id: req.params.taskId
    }, function(err, task){
       if(err)res.send(err);
-      res.json({message: 'Task successfully deleted');
+      res.json({message: 'Task successfully deleted'});
    });
 };
