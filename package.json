@@ -1,6 +1,6 @@
 {
   "name": "todolistapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "RESTful todoListApi",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/underc8der/todoListApi.git"
   },
-  "keywords": [
-    "lalelilolu"
-  ],
+  "keywords": [],
   "author": "david gonzalez",
   "license": "ISC",
   "bugs": {
